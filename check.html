@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Northern Frost</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><img src="img/logo.PNG" alt="Logo"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Clothing</a>
+                    <div class="dropdown-content">
+                        <a href="shirt.html">Shirts</a>
+                        <a href="pant.html">Pants</a>
+                        <a href="accessory.html">Accessory</a>
+                        <a href="bag.html">Bags</a>
+                        <a href="sale.html">Sale</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="checkout-container">
+        <h2>Checkout</h2>
+        <div class="cart-items" id="cart-items">
+
+        </div>
+        <div class="total">
+            <h3>Total:</h3>
+            <p id="total-amount">$0.00</p>
+        </div>
+        <button id="checkout-btn">Proceed to Payment</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Northern Frost Store. All rights reserved.</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>
